@@ -1,0 +1,61 @@
+<div class="root">
+    <div class="con">
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    <div class="con">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+    </div>
+  	<div class="con">
+      <div class="ball"></div>
+       <div class="ball"></div>
+  	</div>
+  <div class="con">
+      <div class="ball"></div>
+  	</div>
+  	
+    
+</div>
+
+<style>
+
+  body{
+    background:#191919;
+  }
+  .con div{
+    display: inline-flex;
+  }
+  .con:nth-child(2){
+    margin-top:4px;
+  }
+  .con:nth-child(3){
+    margin-top:4px;
+  }
+  .con:nth-child(4){
+    margin-top:4px;
+  }
+  
+  .ball{
+    width: 40px;
+    height: 40px;
+    background: #F6E59C;
+    border-radius:20px;
+    margin-top: 12px;
+  }
+  .ball:first-child{
+    margin-left:12px;
+  }
+  .ball:nth-child(2){
+    margin-left:14px;
+  }
+   .ball:nth-child(3){
+    margin-left:15px;
+  }
+   .ball:nth-child(4){
+    margin-left:14px;
+  }
+</style>
