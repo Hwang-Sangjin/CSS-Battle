@@ -1,0 +1,56 @@
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+<div class="fourth"></div>
+<div class="fifth"></div>
+<div class="sixth"></div>
+<div class="seventh"></div>
+<style>
+  body{
+    background-color:#D25B70;
+  }
+  div{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background: #F2E09F;
+    border-radius:5px;
+  }
+  .first{
+    top:195px;
+    left:80px;
+    width: 100px;
+    height: 10px;
+    background: #F2E09F;
+  }
+  .second{
+    top:160px;
+    left:90px;
+    transform:rotate(30deg)
+  }
+  .third{
+    top:135px;
+    left:115px;
+    transform: rotate(60deg);
+  }
+  .fourth{
+    top:125px;
+    left:150px;
+    transform: rotate(90deg);
+  }
+  .fifth{
+    top:135px;
+    left: 185px;
+    transform: rotate(120deg)
+  }
+  .sixth{
+    top:160px;
+    left: 210px;
+    transform: rotate(150deg);
+  }
+  .seventh{
+    top:195px;
+    left:220px;
+    
+  }
+</style>
