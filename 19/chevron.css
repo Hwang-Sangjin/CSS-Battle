@@ -1,0 +1,27 @@
+<div class="first tri"></div>
+<div class="second tri"></div>
+<div class="third tri"></div>
+<style>
+  body{
+    background:#6592CF;
+  }
+  .tri{
+    position:fixed;
+    background:#293D7E;
+    width:250px;
+    height:100px;
+    clip-path:polygon(0 0, 15.5% 0, 50% 69.5%, 84.5% 0, 100% 0, 50% 100%);
+  }
+  .first{
+    left:75px;
+    top: 50px;
+  }
+  .second{
+    left:75px;
+    top:100px;
+  }
+  .third{
+    left:75px;
+    top:150px;
+  }
+</style>
