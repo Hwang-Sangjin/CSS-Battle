@@ -1,0 +1,58 @@
+<div class="left col"></div>
+<div class="center col"></div>
+<div class="right col"></div>
+
+<div class="bar first"></div>
+<div class="bar second"></div>
+<div class="bar third"></div>
+<style>
+  body{
+    background:#000000;
+  }
+  .bar{
+    background:#AF067C;
+    width:300px;
+    height:20px;
+    border-radius:15px;
+  }
+  
+  .first{
+    position: fixed;
+    top:90px;
+    left:50px;
+  }
+  .second{
+    width:33-px;
+    position:fixed;
+    top:140px;
+    left:50px;
+    transform:rotate(-4deg)
+  }
+  .third{
+    position:fixed;
+    top:190px;
+    left:50px;
+  }
+  .col{
+    background:#FFFFFF;
+    width:20px;
+    height:50px;
+  }
+  .left{
+    position:fixed;
+    left:80px;
+    top:100px;
+  }
+  .center{
+    position:fixed;a
+    left:190px;
+    top:150px;
+  }
+  .right{
+    position:fixed;
+    height:100px;
+    left:300px;
+    top:100px;
+  }
+  
+</style>
