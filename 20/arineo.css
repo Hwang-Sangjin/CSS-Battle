@@ -1,0 +1,53 @@
+<div class="up"></div>
+<div class="white"></div>
+<div class="down"></div>
+<div class="center"></div>
+<style>
+  body{
+    background:#FFFFFF;
+  }
+  .up {
+    width: 216px;
+    height: 180px;
+    background: #2E2926;
+    position:fixed;
+    top:60px;
+    left:92px;
+	clip-path:polygon(0 100%, 39% 0, 61% 0, 100% 100%,79.5% 100%, 50% 24%, 20.5% 100%);
+  }
+  .white{
+    background:#FFFFFF;
+    width:200px;
+    height:170px;
+    position:fixed;
+    left:120px;
+    top:60px;
+   clip-path: polygon(0% 22%, 40% 70%, 98% 0%, 98% 31%, 40% 100%, 0 52%)
+  }
+  .down{
+    background:#0088CA;
+    width:200px;
+    height:170px;
+    position:fixed;
+    left:120px;
+    top:60px;
+   clip-path: polygon(0% 29%, 40% 76%, 100% 5.5%, 100% 22%, 40% 93%, 0 45.5%)
+  }
+  .center{
+    background:#0088CA;
+    position:fixed;
+    width:22px;
+    height:22px;
+    border-radius:11px;
+    left:189px;
+    top:139px;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
